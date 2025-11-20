@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ギャラリー | ふるやぁん</title>
+<style>
+body{margin:0;font-family:"Yu Mincho", serif;background:#2b1e14;color:#f5e7c6;}
+header{background:#3a281c;color:#d7b77a;padding:25px;text-align:center;font-size:28px;font-weight:bold;border-bottom:2px solid #d7b77a;}
+.section{padding:20px;max-width:1200px;margin:0 auto;}
+h1{color:#d7b77a;text-align:center;margin-bottom:30px;font-size:32px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;}
+.grid img{width:100%;height:150px;object-fit:cover;border-radius:8px;box-shadow:0 0 12px rgba(215,183,122,0.4);transition:0.3s;}
+.grid img:hover{transform:scale(1.05);box-shadow:0 0 18px rgba(215,183,122,0.7);}
+.note{margin:20px 0;padding:18px;background:#332417;border-left:5px solid #d7b77a;border-radius:8px;text-align:center;box-shadow:0 0 10px rgba(215,183,122,0.3);}
+</style>
+</head>
+<body>
+<header>ふるやぁん | ギャラリー</header>
+<section class="section">
+<h1>作品ギャラリー</h1>
+<div class="note">ここに50枚の写真を貼るだけで木製ペンの美しい表情を一目で楽しめます。</div>
+<div class="grid">
+  <!-- imagesフォルダ内の写真を50枚表示 -->
+  <img src="images/photo1.jpg">
+  <img src="images/photo2.jpg">
+  <img src="images/photo3.jpg">
+  <img src="images/photo4.jpg">
+  <img src="images/photo5.jpg">
+  <img src="images/photo6.jpg">
+  <img src="images/photo7.jpg">
+  <img src="images/photo8.jpg">
+  <img src="images/photo9.jpg">
+  <img src="images/photo10.jpg">
+  <img src="images/photo11.jpg">
+  <img src="images/photo12.jpg">
+  <img src="images/photo13.jpg">
+  <img src="images/photo14.jpg">
+  <img src="images/photo15.jpg">
+  <img src="images/photo16.jpg">
+  <img src="images/photo17.jpg">
+  <img src="images/photo18.jpg">
+  <img src="images/photo19.jpg">
+  <img src="images/photo20.jpg">
+  <img src="images/photo21.jpg">
+  <img src="images/photo22.jpg">
+  <img src="images/photo23.jpg">
+  <img src="images/photo24.jpg">
+  <img src="images/photo25.jpg">
+  <img src="images/photo26.jpg">
+  <img src="images/photo27.jpg">
+  <img src="images/photo28.jpg">
+  <img src="images/photo29.jpg">
+  <img src="images/photo30.jpg">
+  <img src="images/photo31.jpg">
+  <img src="images/photo32.jpg">
+  <img src="images/photo33.jpg">
+  <img src="images/photo34.jpg">
+  <img src="images/photo35.jpg">
+  <img src="images/photo36.jpg">
+  <img src="images/photo37.jpg">
+  <img src="images/photo38.jpg">
+  <img src="images/photo39.jpg">
+  <img src="images/photo40.jpg">
+  <img src="images/photo41.jpg">
+  <img src="images/photo42.jpg">
+  <img src="images/photo43.jpg">
+  <img src="images/photo44.jpg">
+  <img src="images/photo45.jpg">
+  <img src="images/photo46.jpg">
+  <img src="images/photo47.jpg">
+  <img src="images/photo48.jpg">
+  <img src="images/photo49.jpg">
+  <img src="images/photo50.jpg">
+</div>
+</section>
+</body>
+</html>
